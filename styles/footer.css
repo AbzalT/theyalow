@@ -1,0 +1,155 @@
+.footer-bg {
+	background-image: url(../assets/bg.png);
+	background-size: cover;
+}
+
+.footer--grey {
+	padding: 0 0;
+	/* 140px; */
+}
+
+.footer__header {
+	margin: auto;
+	width:601px;	
+	padding-top: 40px;
+	padding-bottom: 14px;
+}
+
+.f__h--header {
+	color: #f5c506;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	font-size: 28pt;
+}
+
+.footer-content {	
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-end; 
+	padding-bottom:108px;
+}
+
+.footer-images {
+	width:53%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center
+}
+
+.footer--laptop {
+	width:340px;
+	height: 293px;
+	background-image: url(../assets/laptop.png);
+	background-repeat: no-repeat;
+	background-position: 100% 100%;
+}
+
+.f--l--circle {
+	width:117px;
+	height: 117px;
+	background-color: #f5c506;
+	border-radius: 180px;
+}
+
+.f--l--c__text {
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 120px;
+	font-family: sans-serif;
+	font-size: 11pt;
+	font-weight: bold;
+}
+
+.footer--pad {
+	width:129px;
+	height: 293px;
+	background-image: url(../assets/pad.png);
+	background-repeat: no-repeat;
+	background-position: 100% 65%;
+}
+
+.footer--phone {
+	width:39px;
+	height: 293px;
+	background-image: url(../assets/phone.png);
+	background-repeat: no-repeat;
+	background-position: 100% 81%;
+}
+
+.footer-text {
+	width: 37%;
+	word-wrap: break-word;
+}
+
+
+.footer-text__item {
+	color: #a9a9a7;
+	font-size: 15pt;
+	font-family: sans-serif;
+	/* padding-left: 20px; */
+	padding-bottom: 15px;
+
+}
+
+.footer-text__item:before {
+	display: inline-block;
+	content: "";
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background-color: #f5c506;
+	margin-left: -10px;
+	margin-right: 10px; 
+}
+
+
+.section--grey {
+	background-color: #4c4c4c;
+	box-shadow: 0 -3px 15px  #222;
+}
+
+.copyright {
+	padding: 5px 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer-logo {
+	width: 170px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.f-l__img {
+	background-image: url(../assets/logo2.png),  url(../assets/logo1.png);
+	height: 50px;
+	width: 50px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.f-l__text {
+	color: #fff;
+	text-transform: uppercase;
+	font-style: italic;
+	font-family: sans-serif;
+	font-size: 15pt;
+}
+
+.copyright-text {
+	width: 200px;
+}
+
+.c-t__text {
+	color: #fff;
+	font-family: sans-serif;
+	font-size: 11pt;
+}
