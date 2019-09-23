@@ -11,6 +11,8 @@
 }
 
 .s--g__h--title {
+	padding-top: 15px;
+	letter-spacing: 2%;
 	color: #f5c506;
 	text-align: center;
 	text-transform: uppercase;
@@ -47,6 +49,8 @@
 	height: 117px;
 	background-color: #f5c506;
 	border-radius: 180px;
+	padding-left: -2px;
+
 }
 
 .s--g--l--c__text {
@@ -84,7 +88,8 @@
 	color: #a9a9a7;
 	font-size: 15pt;
 	font-family: sans-serif;
-	padding-bottom: 15px;
+	padding-top: 29px;
+	padding-left: 3px;
 }
 
 .s--g-text__item:before {
