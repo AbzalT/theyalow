@@ -1,0 +1,75 @@
+.top-bg {
+	background-image: url(../assets/bg-header.png);
+	background-size: cover;
+}
+
+.top-playerblock {
+    display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 50px 0 60px;
+}
+
+.t-p_wrap {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: stretch;
+}
+.top-pl_video>video {
+	width: 547px;
+	height: 325px;
+	padding: 5px 10px 0;
+	
+}
+
+.top-pl__text {
+	padding-top: 100px;
+	text-align: center;    
+}
+
+.top-pl_arrow {
+    width: 33px;
+	height: 58px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	background-color: #b99403;
+}
+
+.top-pl__words {
+	color: #f5c506;
+	text-transform: uppercase;
+	font-size: 63px;
+	letter-spacing: 1px;
+	font-family: "Asap";
+	font-weight: 400;
+	text-align: center;
+}
+
+.top-pl__words--white {
+	color:#fff;
+}
+
+@media (max-width: 1020px) {
+	.top-playerblock {
+		padding: 0;
+	}
+	.top-pl_video,
+	.top-pl_video>video {					
+		width: 549px;
+		height: 323px;
+		display: block;   
+	}	
+	.top-pl_arrow {
+		display: none;
+	}
+	.top-pl__text {
+		display: none;
+	}
+	
+}
+
+

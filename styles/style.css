@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap');
+@import url("./reset.css");
+@import url("./section_white.css");
+@import url("./section_yellow.css");
+@import url("./section_grey.css");
+@import url("./section_top.css");
+@import url("./header.css");
+@import url("./footer.css");
+
+body {			
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+}
+
+.container {
+	max-width: 100%;
+	min-width: 640px;
+}
+
+.wrap {
+	width:1020px;	
+	margin: auto;
+}
+
